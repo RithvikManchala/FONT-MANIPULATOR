@@ -41,6 +41,7 @@ function draw()
 {
     background('#969A97');
     document.getElementById("square_side").innerHTML = "Width & Height of the square : " +difference+ "px";
+    textSize(difference);
     fill('#F90093') 
     stroke('#F90093')
     text('Rithvik', 50, 400);
